@@ -1,41 +1,48 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import facebook from '../img/facebook-icon.svg';
+import logo from '../img/logo.png';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar is-transparent is-fixed-top">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
+          Ölbruket
         </Link>
       </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
-          About
+          Om
         </Link>
-        <Link className="navbar-item" to="/products">
-          Products
+        <Link className="navbar-item" to="/events">
+          Arrangemang
+        </Link>
+        <Link className="navbar-item" to="/news">
+          Nyheter
+        </Link>
+        <Link className="navbar-item" to="/board">
+          Styrelsen
+        </Link>
+        <Link className="navbar-item" to="/documents">
+          Document
         </Link>
       </div>
       <div className="navbar-end">
         <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://www.facebook.com/olbruket/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className="icon">
-            <img src={github} alt="Github" />
+            <img src={facebook} alt="Facebook" />
           </span>
         </a>
       </div>
     </div>
   </nav>
-)
+);
 
-export default Navbar
+export default Navbar;
