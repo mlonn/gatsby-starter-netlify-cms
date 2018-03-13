@@ -13,8 +13,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
-      - {label: "Titel", name: "titel", widget: "string"}
-      - {label: "Tid", name: "date", widget: "datetime"}
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Tid", name: "date", widget: "date"}
       - {label: "Publicerat", name: "date", widget: "datetime"}
       - {label: "Text", name: "body", widget: "markdown"}
 
@@ -41,14 +41,14 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/board/index.md"
         label: "Styrelse"
-        name: "styrelse"
+        name: "board"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "board-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/docuemnts/index.md"
+      - file: "src/pages/documents/index.md"
         label: "Dokument"
-        name: "dokument"
+        name: "documents"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "documents-page"}  
           - {label: "Filer", name: filer, widget: list, fields: [{label: Titel, name: titel, widget: string}, {label: Fil, name: fil, widget: file}]}
