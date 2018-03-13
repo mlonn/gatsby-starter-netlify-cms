@@ -24,7 +24,7 @@ export default ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <DocumentsTemplate
+    <DocumentsPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}

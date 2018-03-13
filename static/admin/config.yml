@@ -25,7 +25,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
-      - {label: "Titel", name: "titel", widget: "string"}
+      - {label: "Titel", name: "title", widget: "string"}
       - {label: "Publicerat", name: "date", widget: "datetime"}
       - {label: "Text", name: "body", widget: "markdown"}
 
