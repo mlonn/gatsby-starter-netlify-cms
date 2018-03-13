@@ -51,4 +51,4 @@ collections:
         name: "dokument"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "documents-page"}  
-          - {label: "Filer", name: filer, widget: list, fields: [{label: Titel, name: titel, widget: string}, {label: Fil, name: fil, widget: file}]}]}
+          - {label: "Filer", name: filer, widget: list, fields: [{label: Titel, name: titel, widget: string}, {label: Fil, name: fil, widget: file}]}
