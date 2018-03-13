@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: "event"
-    label: "Events"
+    label: "Event"
     folder: "src/pages/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -18,7 +18,7 @@ collections:
       - {label: "Publicerat", name: "date", widget: "datetime"}
       - {label: "Text", name: "body", widget: "markdown"}
 
-  - name: "news"
+  - name: "nyheter"
     label: "Nyheter"
     folder: "src/pages/news"
     create: true
@@ -29,7 +29,7 @@ collections:
       - {label: "Publicerat", name: "date", widget: "datetime"}
       - {label: "Text", name: "body", widget: "markdown"}
 
-  - name: "pages"
+  - name: "sidor"
     label: "Sidor"
     files:
       - file: "src/pages/about/index.md"
@@ -37,5 +37,19 @@ collections:
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/board/index.md"
+        label: "Styrelse"
+        name: "styrelse"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "board-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+        - file: "src/pages/docuemnts/index.md"
+        label: "Dokument"
+        name: "dokument"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "documents-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
