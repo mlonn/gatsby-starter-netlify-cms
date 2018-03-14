@@ -5,12 +5,17 @@ import facebook from '../img/facebook-icon.svg';
 import logo from '../img/logo.png';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent is-fixed-top">
+  <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           Ölbruket
         </Link>
+   <div class="navbar-burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
       </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
