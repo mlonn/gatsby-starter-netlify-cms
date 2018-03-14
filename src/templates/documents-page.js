@@ -38,6 +38,7 @@ export const documentsPageQuery = graphql`
       html
       frontmatter {
         title
+        category
       }
     }
   }
