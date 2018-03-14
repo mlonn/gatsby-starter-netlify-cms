@@ -2,10 +2,10 @@
 templateKey: documents-page
 title: Dokument
 intro: Här är dokument
-filer:
-  category: Styrdokument
-  undefined:
-    - fil: /img/ölbruket - stadgar-v2.pdf
-      titel: Stadga
+categories:
+  category:
+    categoryName: Styrdokument
+    files:
+      name: Stadga
+      file: /img/ölbruket - stadgar-v2.pdf
 ---
-

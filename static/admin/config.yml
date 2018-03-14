@@ -61,9 +61,11 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "documents-page"}  
           - {label: "Rubrik", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
-          - {label: "Filer", name: filer, widget: object, fields: [
-              {label: "Kategori", name: "category", widget: string},
-              {label: "Fil", name:"file-name", widget: list, fields : [
-                {label: Titel, name: titel, widget: string}, 
-                {label: Fil, name: fil, widget: file}]}
+          - {label: "Kategorier", name: categories, widget: list, fields: [
+            {label: "Kategori", name: category, widget: object, fields: [
+              {label: "Namn", name: "categoryName", widget: "string"},
+              {label: "Filer", name: "files", widget: "list", fields : [
+                {label: "Namn", name: "name", widget: "string"}, 
+                {label: "Fil", name: "file", widget: "file"}]}
+              ]}
             ]}
