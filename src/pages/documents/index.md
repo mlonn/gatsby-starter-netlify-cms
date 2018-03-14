@@ -11,6 +11,7 @@ categories:
   - category:
       categoryName: Möten
       files:
-        - file: /img/chemex.jpg
+        - file: /img/ölbruket - stadgar-v2.pdf
           name: Årsmöte 2017-04-11
 ---
+
