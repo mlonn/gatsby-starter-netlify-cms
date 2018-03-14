@@ -7,11 +7,13 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div class="hero">
-        <figure class="image">
-          <img src={background} />
-        </figure>
-      </div>
+      <section className="hero is-fullheight">
+        <div className="hero-body">
+          <div className="container">
+            <h1 className="title">Välkommen till Ölbruket</h1>
+          </div>
+        </div>
+      </section>
     );
   }
 }

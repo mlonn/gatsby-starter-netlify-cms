@@ -1,7 +1,8 @@
 import React from 'react';
 import Content, { HTMLContent } from '../components/Content';
+import DocumentCategories from '../components/DocumentCategories';
 
-export const DocumentsPageTemplate = ({ title, intro, categorys }) => {
+export const DocumentsPageTemplate = ({ title, intro, categories }) => {
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -10,6 +11,9 @@ export const DocumentsPageTemplate = ({ title, intro, categorys }) => {
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">{title}</h2>
               <div>{intro}</div>
+              <div>
+                <DocumentCategories categories={categories} />
+              </div>
             </div>
           </div>
         </div>
@@ -25,7 +29,7 @@ export default ({ data }) => {
     <DocumentsPageTemplate
       intro={post.frontmatter.intro}
       title={post.frontmatter.title}
-      categorys={post.frontmatter.categorys}
+      categories={post.frontmatter.categories}
     />
   );
 };
