@@ -47,13 +47,13 @@ collections:
           - {label: "Rubrik", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - label: "Styrelsemedlemmar"
-            name: "board-members"
+            name: "boardMembers"
             widget: list
             fields:
               - {label: "Namn", name: "name", widget: "string"}
               - {label: "Post", name: "post", widget: "string"}
               - {label: "Bild", name:"image", widget: "image"}
-              - {label: "Beskrivning", name: "description", widget: "text"}
+              - {label: "Email", name: "email", widget: "string"}
       - file: "src/pages/documents/index.md"
         label: "Dokument"
         name: "documents"

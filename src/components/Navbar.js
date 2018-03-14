@@ -5,7 +5,7 @@ import facebook from '../img/facebook-icon.svg';
 import logo from '../img/logo.png';
 
 const Navbar = () => (
-  <nav className="navbar is-transparent is-fixed-top">
+  <nav className="navbar is-transparent">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">

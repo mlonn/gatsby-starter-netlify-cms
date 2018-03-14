@@ -1,29 +1,23 @@
-import React from 'react'
-import Content, { HTMLContent } from '../components/Content'
+import React from 'react';
+import Content, { HTMLContent } from '../components/Content';
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
+        <div className="content">
+          <h1 className="title is-size-2 has-text-weight-bold">{title}</h1>
         </div>
+        <PageContent className="content" content={content} />
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <AboutPageTemplate
@@ -31,8 +25,8 @@ export default ({ data }) => {
       title={post.frontmatter.title}
       content={post.html}
     />
-  )
-}
+  );
+};
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
@@ -43,4 +37,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;

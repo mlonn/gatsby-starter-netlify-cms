@@ -1,31 +1,34 @@
 ---
 templateKey: board-page
 title: Styrelsen
-board-members:
-  - description: Lallala
-    name: Edvard Hübinette
+boardMembers:
+  - name: Edvard Hübinette
     post: Ordförande
-  - description: lorem ipsum
-    name: Johan Andersson
+    email: edvard@olbruket.se
+  - name: Johan Andersson
     post: Vice Ordförande
-  - description: sdfsdfs
-    name: Erik Lundin
+    email: johan@olbruket.se
+  - name: Erik Lundin
     post: Kassör
-  - description: ksjdglksjgl
-    name: Mikael Lönn
+    email: erik@olbruket.se
+  - name: Mikael Lönn
     post: Sekreterare
-  - description: fjgauioey
-    name: Johannes Mattson
+    email: mikael@olbruket.se
+  - name: Johannes Mattson
     post: Ledamot
-  - description: akuroiaeruoi
-    name: Maria Magnusson
+    email: johannes@olbruket.se
+  - name: Maria Magnusson
     post: Ledamot
+    email: maria@olbruket.se
   - name: Mickis Gullstrand
     post: Ledamot
+    email: mickis@olbruket.se
   - name: Jesper Jaxing
     post: Ledamot
-  - description: jklsdfjlskdfj
-    name: Tobias Allden
+    email: jesper@olbruket.se
+  - name: Tobias Allden
     post: Ledamot
+    email: tobias@olbruket.se
 ---
+
 Här är 2017-2018 års styrelse

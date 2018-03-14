@@ -6,11 +6,9 @@ const DocumentCategories = ({ categories }) => (
     {categories.map(category => {
       const cat = category.category;
       return (
-        <div key={cat.categoryName}>
-          <section className="section">
-            <h3 className="title">{cat.categoryName}</h3>
-            {cat.files.map(file => <Link to={file.file}>{file.name}</Link>)}
-          </section>
+        <div className="column is-12" key={cat.categoryName}>
+          <h3 className="title">{cat.categoryName}</h3>
+          {cat.files.map(file => <Link to={file.file}>{file.name}</Link>)}
         </div>
       );
     })}

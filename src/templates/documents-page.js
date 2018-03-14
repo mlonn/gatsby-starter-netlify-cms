@@ -4,18 +4,14 @@ import DocumentCategories from '../components/DocumentCategories';
 
 export const DocumentsPageTemplate = ({ title, intro, categories }) => {
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">{title}</h2>
-              <div>{intro}</div>
-              <div>
-                <DocumentCategories categories={categories} />
-              </div>
-            </div>
-          </div>
+        <div className="content">
+          <h1 className="title is-size-2 has-text-weight-bold">{title}</h1>
+        </div>
+        <div className="section">{intro}</div>
+        <div>
+          <DocumentCategories categories={categories} />
         </div>
       </div>
     </section>
