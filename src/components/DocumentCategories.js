@@ -9,10 +9,11 @@ const DocumentCategories = ({ categories }) => (
         <div>
             <h3 className="title">{cat.categoryName}</h3>
           {cat.files.map(file => <Link to={file.file}>{file.name}</Link>)}
+           <hr/>
         </div>
       );
     })}
-    <hr/>
+    
   </div>
 );
 export default DocumentCategories;
