@@ -11,7 +11,7 @@ const DocumentCategories = ({ categories }) => (
             <h3 className="title">{cat.categoryName}</h3>
           {cat.files.map(file => <Link to={file.file}>{file.name}</Link>)}
           </div>
-          <hr>
+          <hr/>
         </div>
       );
     })}
