@@ -10,7 +10,7 @@ export const DocumentsPageTemplate = ({ title, intro, categories }) => {
           <h1 className="title is-size-2 has-text-weight-bold">{title}</h1>
         </div>
         <div className="section">{intro}</div>
-        <div>
+        <div className="box">
           <DocumentCategories categories={categories} />
         </div>
       </div>
