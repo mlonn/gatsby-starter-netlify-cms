@@ -13,7 +13,7 @@ export default class NewsPage extends React.Component {
             <h1 className="has-text-weight-bold is-size-2">Nyheter</h1>
           </div>
           {posts
-            .filter(post => post.node.frontmatter.templateKey === 'event')
+            .filter(post => post.node.frontmatter.templateKey === 'news')
             .map(({ node: post }) => (
               <div
                 className="content"
