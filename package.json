@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "olbruket",
+  "description": "Website for Ölbruket",
   "version": "1.1.0",
-  "author": "Austin Green",
+  "author": "Mikael Lönn",
   "dependencies": {
     "bulma": "^0.6.0",
     "gatsby": "^1.9.213",
