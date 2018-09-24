@@ -2,33 +2,32 @@
 templateKey: board-page
 title: Styrelsen
 boardMembers:
-  - name: Edvard Hübinette
+  - email: tobias.allden@olbruket.se
+    name: Tobias Alldén
     post: Ordförande
-    email: edvard@olbruket.se
-  - name: Johan Andersson
+  - email: johannes.mattson@olbruket.se
+    name: Johannes Mattson
     post: Vice Ordförande
-    email: johan@olbruket.se
-  - name: Erik Lundin
+  - email: erik@olbruket.se
+    name: Erik Lundin
     post: Kassör
-    email: erik@olbruket.se
-  - name: Mikael Lönn
+  - email: viktoria.hedlund@olbruket.se
+    name: Viktoria Hedlund
     post: Sekreterare
-    email: mikael@olbruket.se
-  - name: Johannes Mattson
-    post: Ledamot
-    email: johannes@olbruket.se
-  - name: Maria Magnusson
-    post: Ledamot
-    email: maria@olbruket.se
-  - name: Mickis Gullstrand
-    post: Ledamot
-    email: mickis@olbruket.se
-  - name: Jesper Jaxing
-    post: Ledamot
-    email: jesper@olbruket.se
-  - name: Tobias Allden
-    post: Ledamot
-    email: tobias@olbruket.se
+  - email: frej.perbo@olbruket.se
+    name: Frej Perbo
+    post: Bryggrumsansvarig
+  - email: simon.sundstrom@olbruket.se
+    name: Simon Sundström
+    post: IT-ansvarig
+  - email: stefan.wallberg@olbruket.se
+    name: Stefan Wallberg
+    post: PR-ansvarig
+  - email: hampus.ronstrom@olbruket.se
+    name: Hampus Rönström
+    post: Bryggerikontakt
+  - email: pontus.eriksson@olbruket.se
+    name: Pontus Eriksson
+    post: Kommunikatör
 ---
-
-Här är 2017-2018 års styrelse
+Här är 2018-2019 års styrelse
