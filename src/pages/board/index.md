@@ -8,7 +8,7 @@ boardMembers:
   - email: johannes.mattson@olbruket.se
     name: Johannes Mattson
     post: Vice Ordförande
-  - email: erik@olbruket.se
+  - email: erik.lundin@olbruket.se
     name: Erik Lundin
     post: Kassör
   - email: viktoria.hedlund@olbruket.se
