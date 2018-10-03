@@ -49,7 +49,7 @@ export default class Navbar extends React.Component {
                 Styrelsen
               </Link>
               <Link className="navbar-item" to="/documents">
-                Document
+                Dokument
               </Link>
             </div>
             <div className="navbar-end">
