@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import background from '../img/background.jpg';
+import background from '../media/background.jpg';
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;

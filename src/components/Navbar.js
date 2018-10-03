@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import facebook from '../img/facebook-icon.svg';
-import logo from '../img/logo.png';
+import facebook from '../media/facebook-icon.svg';
+import logo from '../media/logo.png';
 
 export default class Navbar extends React.Component {
   constructor() {

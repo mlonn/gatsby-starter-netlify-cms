@@ -11,7 +11,7 @@ const DocumentCategories = ({ categories }) => (
           <ul>
             {cat.files.map(file => (
               <li>
-                <Link to={file.file}>{file.name}</Link>
+                <a href={file.file}>{file.name}</a>
               </li>
             ))}
           </ul>
