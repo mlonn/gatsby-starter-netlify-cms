@@ -6,12 +6,16 @@ categories:
   - category:
       categoryName: Styrdokument
       files:
-        - file: /img/products-grid3.jpg
+        - file: /img/ölbruket - stadgar-v2.pdf
           name: Stadga
   - category:
-      categoryName: Möten
+      categoryName: Årsmöten
       files:
-        - file: /img/ölbruket - stadgar-v2.pdf
-          name: Årsmöte 2017-04-11
+        - file: /img/årsmöte 2018-04-14.pdf
+          name: '2018-04-14'
+        - file: /img/protokoll 2017-11-04.pdf
+          name: '2017-11-04'
+        - file: /img/årsmöte 1 - 2017-04-12.pdf
+          name: '2017-04-12'
 ---
 
